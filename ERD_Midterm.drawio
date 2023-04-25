@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T12:13:00.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FH8de2Fs8CEIVczOD9el" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T12:17:00.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9Oj03rDNK-T9w3Gzjwx0" version="21.2.1" type="github">
   <diagram name="Страница 1" id="pUMUKk7vh0ifozHOk4wC">
-    <mxGraphModel dx="4200" dy="2164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -428,7 +428,7 @@
         <mxCell id="20J9mscwqWilk-XeIcK0-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="20J9mscwqWilk-XeIcK0-122" target="20J9mscwqWilk-XeIcK0-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="20J9mscwqWilk-XeIcK0-122" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;have&amp;nbsp;&lt;br&gt;access&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillStyle=auto;strokeColor=#36393d;fontFamily=Verdana;fontSize=20;fillColor=#cdeb8b;verticalAlign=middle;connectable=1;labelPosition=center;verticalLabelPosition=middle;align=center;spacingTop=-7;" parent="1" vertex="1">
+        <mxCell id="20J9mscwqWilk-XeIcK0-122" value="&lt;p style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;have&amp;nbsp;&lt;br&gt;access&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="strokeWidth=0;html=1;shape=mxgraph.flowchart.decision;rounded=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fillStyle=auto;strokeColor=#36393d;fontFamily=Verdana;fontSize=20;fillColor=#cdeb8b;verticalAlign=middle;connectable=1;labelPosition=center;verticalLabelPosition=middle;align=center;spacingTop=-4;horizontal=1;whiteSpace=wrap;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="592.5" y="468" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="20J9mscwqWilk-XeIcK0-132" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#090D07;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="20J9mscwqWilk-XeIcK0-96" target="20J9mscwqWilk-XeIcK0-104" edge="1">
