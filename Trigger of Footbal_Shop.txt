@@ -1,0 +1,101 @@
+
+-- --------------------------------------BAlls trigger-------------------------------------------------
+
+CREATE OR REPLACE TRIGGER show_row_count_balls
+BEFORE INSERT ON Balls
+DECLARE
+  row_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO row_count FROM Balls;
+  DBMS_OUTPUT.PUT_LINE('Current number of rows in Balls: ' || (row_count+1));
+END;
+
+INSERT INTO Balls (NAME_BALLS, size_BALLS, price)
+VALUES 
+('Teamgeist', 5, 16000)
+
+
+
+
+---------------------------------Boots Trigger----------------------------------------
+CREATE OR REPLACE TRIGGER show_row_count_boots
+After INSERT ON Boots
+DECLARE
+  row_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO row_count FROM Boots;
+  DBMS_OUTPUT.PUT_LINE('Current number of rows in Boots: ' || row_count);
+END;
+
+INSERT INTO Boots (BOOT_ID,brand, size_boots, price, color)
+VALUES 
+(103, 'Puma', 43, 29000, 'green')
+
+
+
+---------------------------------------TOOLS Trigger----------------------
+
+CREATE OR REPLACE TRIGGER show_row_count_tools
+AFTER INSERT ON Tools
+DECLARE
+  row_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO row_count FROM Tools;
+  DBMS_OUTPUT.PUT_LINE('Current number of rows in Tools: ' || row_count);
+END;
+
+INSERT INTO Tools (name_tools,price, color)
+VALUES 
+('Whistle', 500, 'yellow')
+
+
+
+
+--___________________________Clothes Trigger_________________________
+CREATE OR REPLACE TRIGGER show_row_count_clothes
+AFTER INSERT ON Clothes
+DECLARE
+  row_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO row_count FROM Clothes;
+  DBMS_OUTPUT.PUT_LINE('Current number of rows in Clothes: ' || row_count);
+END;
+
+INSERT INTO Clothes (form_id, team, type_clothes, size_clothes, price)
+VALUES 
+(202, 'Chelsea', 'away', 'XXL', 8900)
+
+
+
+
+-- _________________________Staff Trigger_______________________
+CREATE OR REPLACE TRIGGER show_row_count_staff
+AFTER INSERT ON Staff
+DECLARE
+  row_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO row_count FROM Staff;
+  DBMS_OUTPUT.PUT_LINE('Current number of rows in STAFF: ' || row_count);
+END;
+
+INSERT INTO Staff (staff_ID, name_staff, surname, salary, date_of_birth, address)
+VALUES 
+(2102, 'Zhandos', 'Qarzhaubai', 350000, '08-04-1995', '123 All St')
+(2101, 'Adilet', 'Zhaugashar', 250000, '01-01-1990', '123 Main St')
+
+
+
+-- _________________________Consumer Trigger___________________
+CREATE OR REPLACE TRIGGER show_row_count_consumer
+AFTER INSERT ON Consumer
+DECLARE
+  row_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO row_count FROM Consumer;
+  DBMS_OUTPUT.PUT_LINE('Current number of rows in CONSUMER: ' || row_count);
+END;
+
+INSERT INTO Consumer (ConID, name_con, surname, total_payment, phone, address)
+VALUES 
+(2202, 'Mairambek', 'Ali', 23400, '87775657887', 'Abylaikhan Ave 1/1')
+(2201, 'Murat', 'Abdilda', 10000, '87718447054', 'Abai 108')
